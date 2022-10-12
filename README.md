@@ -1,6 +1,8 @@
 # complice-api
 Python wrapper for the [Complice](https://complice.co) API.
 
+> :construction: The Complice API is in early alpha mode.  Use at your own risk.
+
 ## Installation
 ```bash
 pip install complice-api
