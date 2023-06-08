@@ -161,3 +161,4 @@ cython_debug/
 
 
 MANIFEST.in
+.DS_Store
