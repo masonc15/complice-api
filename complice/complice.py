@@ -78,7 +78,7 @@ class CompliceAPI:
         r = self._post('https://complice.co/api/v0/u/me/today/timer/unpause')
         return r.json()
 
-    def _get_intentions(self, strip_goal_num=False):
+    def get_intentions(self, strip_goal_num=False):
         """Returns the user's intentions"""
         intentions = []
         for item in self.get_today()['core']['list']:
